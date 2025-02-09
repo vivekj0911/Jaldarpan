@@ -1,0 +1,10 @@
+[
+  {
+    "employee_id": "1",
+    "role": "technician",
+    "location": "nagpur",
+    "email": "demo@gmail.com",
+    "password": "demo1234",
+    "phone": "911"
+  }
+]
