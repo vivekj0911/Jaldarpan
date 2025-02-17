@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../index.css';
 import About from './About';
 import Description from './Description';
+import bgImage from '../assets/bg.jpg';
 
 const Home = () => {
     const [alert, setAlert] = useState(false); // State to manage alert visibility
@@ -31,7 +32,7 @@ const Home = () => {
             <section
                 className="relative h-screen bg-cover bg-center"
                 id="home"
-                style={{ backgroundImage: `url('./src/assets/bg.jpg')` }}
+                style={{ backgroundImage: `url(${bgImage})`}}
             >
                 <div className="flex flex-col justify-center items-center h-full z-10 relative text-center px-6">
                     {/* Hero Title */}

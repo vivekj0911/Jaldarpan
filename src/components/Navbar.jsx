@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,7 +72,7 @@ const Navbar = () => {
 
       <nav className="container w-full flex items-center justify-between p-2">
         <div className="flex items-center space-x-4">
-          <img src="./src/assets/logo.png" alt="Logo" className="h-10 w-10" />
+          <img src={logo} alt="Logo" className="h-10 w-10" />
           <h1 className="text-2xl font-bold text-primary">JalDarpan</h1>
         </div>
 

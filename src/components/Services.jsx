@@ -1,5 +1,8 @@
 import React from 'react';
 import '../index.css';
+import logo3 from '../assets/logo3.jpg';
+import logo2 from "../assets/logo2.png";
+import logo1 from '../assets/logo1.jpg';
 
 const Services = () => {
     const services = [
@@ -7,21 +10,21 @@ const Services = () => {
             title: 'Tailored Models for Accurate Data Insights',
             description:
                 'We create custom models for each location to ensure the data is highly accurate and relevant. By adapting analysis to specific conditions, we provide precise insights for better management.',
-            img: './src/assets/logo3.jpg',
+            img: logo3,
             reverse: false,
         },
         {
             title: 'Automated Alerts and Notifications',
             description:
                 'The system sends alerts to officers and vendors when critical issues are detected, ensuring continuous monitoring of groundwater resources.',
-            img: './src/assets/logo1.jpg',
+            img: logo1,
             reverse: true,
         },
         {
             title: 'Issue Tracking and Resolution System',
             description:
                 'A dedicated portal for managing issues ensures transparency and accountability with unique IDs assigned to each problem.',
-            img: './src/assets/logo2.png',
+            img: logo2,
             reverse: false,
         },
     ];

@@ -1,4 +1,5 @@
 import React from 'react';
+import bgimg from '../assets/bg.jpg'
 
 const Description = () => {
     return (
@@ -45,7 +46,7 @@ const Description = () => {
                 {/* Right Section */}
                 <div className="md:w-1/2">
                     <img
-                        src="./src/assets/bg.jpg"
+                        src={bgimg}
                         alt="Groundwater monitoring platform"
                         className="rounded-lg shadow-md"
                     />
